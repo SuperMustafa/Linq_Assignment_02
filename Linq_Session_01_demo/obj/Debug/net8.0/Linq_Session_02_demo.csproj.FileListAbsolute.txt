@@ -1,0 +1,15 @@
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_02_demo.exe
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_02_demo.deps.json
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_02_demo.runtimeconfig.json
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_02_demo.dll
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_02_demo.pdb
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.AssemblyInfoInputs.cache
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.AssemblyInfo.cs
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.csproj.CoreCompileInputs.cache
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.sourcelink.json
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.dll
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\refint\Linq_Session_02_demo.dll
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.pdb
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_02_demo.genruntimeconfig.cache
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo - Copy\Linq_Session_01_demo\obj\Debug\net8.0\ref\Linq_Session_02_demo.dll

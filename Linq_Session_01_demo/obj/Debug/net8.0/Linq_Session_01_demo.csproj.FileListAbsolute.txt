@@ -1,0 +1,14 @@
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_01_demo.exe
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_01_demo.deps.json
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_01_demo.runtimeconfig.json
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_01_demo.dll
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\bin\Debug\net8.0\Linq_Session_01_demo.pdb
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_01_demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_01_demo.AssemblyInfoInputs.cache
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_01_demo.AssemblyInfo.cs
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_01_demo.csproj.CoreCompileInputs.cache
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_01_demo.dll
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\refint\Linq_Session_01_demo.dll
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_01_demo.pdb
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\Linq_Session_01_demo.genruntimeconfig.cache
+E:\asp.net\Assignments\Advanced_C#\Linq_Session_01_demo\Linq_Session_01_demo\obj\Debug\net8.0\ref\Linq_Session_01_demo.dll

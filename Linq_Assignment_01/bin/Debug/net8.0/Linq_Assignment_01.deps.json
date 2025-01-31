@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Linq_Assignment_01/1.0.0": {
+        "dependencies": {
+          "Linq_Session_01_demo": "1.0.0"
+        },
+        "runtime": {
+          "Linq_Assignment_01.dll": {}
+        }
+      },
+      "Linq_Session_01_demo/1.0.0": {
+        "runtime": {
+          "Linq_Session_01_demo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Linq_Assignment_01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Linq_Session_01_demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
