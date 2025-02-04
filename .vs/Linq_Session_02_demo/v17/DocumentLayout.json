@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC9A6892-650A-4944-A915-620A7627D5EC}|Linq_Assignment_01\\Linq_Assignment_02.csproj|e:\\asp.net\\assignments\\advanced_c#\\linq_session_01_demo - copy\\linq_assignment_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC9A6892-650A-4944-A915-620A7627D5EC}|Linq_Assignment_01\\Linq_Assignment_02.csproj|solutionrelative:linq_assignment_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|e:\\asp.net\\assignments\\advanced_c#\\linq_session_01_demo - copy\\linq_session_01_demo\\mydata\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|solutionrelative:linq_session_01_demo\\mydata\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|e:\\asp.net\\assignments\\advanced_c#\\linq_session_01_demo - copy\\linq_session_01_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|solutionrelative:linq_session_01_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|solutionrelative:linq_session_01_demo\\mydata\\listgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC9A6892-650A-4944-A915-620A7627D5EC}|Linq_Assignment_01\\Linq_Assignment_02.csproj|e:\\asp.net\\assignments\\advanced_c#\\linq_session_01_demo - copy\\linq_assignment_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9A6892-650A-4944-A915-620A7627D5EC}|Linq_Assignment_01\\Linq_Assignment_02.csproj|solutionrelative:linq_assignment_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|e:\\asp.net\\assignments\\advanced_c#\\linq_session_01_demo - copy\\linq_session_01_demo\\mydata\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|solutionrelative:linq_session_01_demo\\mydata\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|e:\\asp.net\\assignments\\advanced_c#\\linq_session_01_demo - copy\\linq_session_01_demo\\mydata\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|solutionrelative:linq_session_01_demo\\mydata\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8DF0CDF-A722-4C2A-9F3B-46A8D3A22448}|Linq_Session_01_demo\\Linq_Session_02_demo.csproj|e:\\asp.net\\assignments\\advanced_c#\\linq_session_01_demo - copy\\linq_session_01_demo\\mydata\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,55 +34,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Assignment_01\\Program.cs",
               "RelativeDocumentMoniker": "Linq_Assignment_01\\Program.cs",
               "ToolTip": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Assignment_01\\Program.cs",
               "RelativeToolTip": "Linq_Assignment_01\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAFMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T21:36:39.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T21:36:39.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Session_01_demo\\Program.cs",
               "RelativeDocumentMoniker": "Linq_Session_01_demo\\Program.cs",
               "ToolTip": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Session_01_demo\\Program.cs",
               "RelativeToolTip": "Linq_Session_01_demo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGABAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T14:38:55.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Session_01_demo\\MyData\\Product.cs",
               "RelativeDocumentMoniker": "Linq_Session_01_demo\\MyData\\Product.cs",
               "ToolTip": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Session_01_demo\\MyData\\Product.cs",
               "RelativeToolTip": "Linq_Session_01_demo\\MyData\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T22:09:50.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ListGenerator.cs",
               "DocumentMoniker": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Session_01_demo\\MyData\\ListGenerator.cs",
               "RelativeDocumentMoniker": "Linq_Session_01_demo\\MyData\\ListGenerator.cs",
               "ToolTip": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Session_01_demo\\MyData\\ListGenerator.cs",
               "RelativeToolTip": "Linq_Session_01_demo\\MyData\\ListGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T20:36:20.259Z"
             },
@@ -100,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Customer.cs",
               "DocumentMoniker": "E:\\asp.net\\Assignments\\Advanced_C#\\Linq_Session_01_demo - Copy\\Linq_Session_01_demo\\MyData\\Customer.cs",
               "RelativeDocumentMoniker": "Linq_Session_01_demo\\MyData\\Customer.cs",
@@ -108,8 +107,7 @@
               "RelativeToolTip": "Linq_Session_01_demo\\MyData\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T20:35:00.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T20:35:00.883Z"
             }
           ]
         }

@@ -122,15 +122,18 @@ namespace Linq_Assignment_02
             #region Q17  Produce a Sequence containing the unique first letter from both product and customer names.
 
 
-            //var uniqueFirstLetters = ProductList
-           //.Select(p => p.ProductName[0]) // Get first letter of product names
-           //.Union(CustomerList.Select(c => c.CustomerName[0])) // Get first letter of customer names, merge them
-           //.Distinct();
-           // foreach (var uniqueFirstLetter in uniqueFirstLetters) { Console.WriteLine(uniqueFirstLetter); }
-           
-           
+            // var uniqueFirstLetters = ProductList
+            //.Select(p => p.ProductName[0]) // Get first letter of product names
+            //.Union(CustomerList.Select(c => c.CustomerName[0])) // Get first letter of customer names, merge them
+            //.Distinct();
+            // foreach (var uniqueFirstLetter in uniqueFirstLetters) { Console.WriteLine(uniqueFirstLetter); }
+
+
             #endregion
 
+
+            var res = CustomerList.SelectMany((P) => P.Orders);
+            foreach
         }
 
     }

@@ -18,6 +18,8 @@ namespace Linq_Session_02_demo.MyData
             {
                 new Product() {ProductID = 1, ProductName = "Chai", Category = "Beverages",
                             UnitPrice = 18.00M, UnitsInStock = 100},
+                  new Product() {ProductID = 1, ProductName = "Chai", Category = "beverages",
+                            UnitPrice = 18.00M, UnitsInStock = 100},
                     new Product{ ProductID = 2, ProductName = "Chang", Category = "Beverages",
                         UnitPrice = 19.0000M, UnitsInStock = 17 },
                       new Product{ ProductID = 3, ProductName = "Aniseed Syrup", Category = "Condiments",

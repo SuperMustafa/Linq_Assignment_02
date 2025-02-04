@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Reflection.Metadata;
+using System.Text.RegularExpressions;
 using Linq_Session_02_demo.MyData;
 using static Linq_Session_02_demo.MyData.ListGenerator;
 
@@ -194,6 +195,180 @@ namespace Linq_Session_02_demo
             #endregion
 
 
+            #endregion
+            #region [Quintifier Operators]
+            #region [Any-- return true if sequence has any elements and false if not]
+            //var res = ProductList.Any();
+            //Console.WriteLine(res);
+            //var res = ProductList.Any((P) => P.ProductName.Length <0);
+            //Console.WriteLine(res);
+
+            #endregion
+            #region [All -- returns true if all elemnts equal to a condition and false if not]
+            //var res = ProductList.All((P) => P.UnitPrice > 0);
+            //Console.WriteLine(res);
+            #endregion
+            #region [Contains -- return true if the sequance has a specific element  and false of not]
+            //var res = ProductList.Contains(new Product { ProductID = 2000, ProductName = "Mustafa" });
+            //Console.WriteLine(res);
+            #endregion
+            #region [SequanceEqual-- check if two sequance are equal or not]
+            //List<Product> Seq01= new List<Product>();
+            //{ new Product() { ProductID = 1, ProductName = "Samsung", UnitPrice = 2000, UnitsInStock = 3, Category = "electronics" };
+            //  new Product() { ProductID = 2, ProductName = "dell", UnitPrice = 3000, UnitsInStock = 3, Category = "electronics" };
+            //  new Product() { ProductID = 3, ProductName = "Hb", UnitPrice = 4000, UnitsInStock = 3, Category = "electronics" };
+
+            //}
+
+            //List<Product> Seq02 = new List<Product>();
+            //{
+            //    new Product() { ProductID = 2, ProductName = "Samsung", UnitPrice = 2000, UnitsInStock = 3, Category = "electronics" };
+            //    new Product() { ProductID = 2, ProductName = "dell", UnitPrice = 3000, UnitsInStock = 3, Category = "electronics" };
+            //    new Product() { ProductID = 3, ProductName = "Hb", UnitPrice = 4000, UnitsInStock = 3, Category = "electronics" };
+
+            //}
+
+            //var res= Seq01.SequenceEqual( Seq02);
+            //Console.WriteLine(res);
+
+            #endregion
+
+            #endregion
+            #region [Transformation Operators]
+            #region [Zip]
+            // =======the first overLoad of zip======================
+
+            //string[] names = { "one", "two", "three", "four", "five" };
+            //int[] numbers = { 1, 2, 3, 4 ,5,6};
+            //var res = names.Zip(numbers);
+            ////foreach(var i in res) { Console.WriteLine(i); }
+
+            //// =======the second overLoad of zip======================
+            //var res02 = numbers.Zip(names, new string[] { "*", "*", "*", "*" });
+            //foreach(var i in res02) { Console.WriteLine(i); }
+            //#endregion
+            //// zip operator takes smallest sequence and stop at the end of it
+
+
+            //// =======the Third overLoad of zip======================
+            //var res03 = names.Zip(numbers, (x, y) => $"{x}==>{y}");
+            //foreach(var i in res03) { Console.WriteLine(i); }
+
+
+            #endregion
+            #endregion
+            #region [Grouping Operators]
+            #region [Group by]
+            // ==================fluent syntax=====================
+            //var res = ProductList.GroupBy((P) => P.Category);
+            //foreach (var item in res) { Console.WriteLine("====================="+item.Key);
+
+            //    foreach (var product in item) { Console.WriteLine(product); }
+
+            //}
+
+            //===============================EX02==========================
+            //select categories that ar in stock and each category has more than ten products and
+            // return product category with the count of products of it
+            ////======================== query syntax=========================
+            //var res = from P in ProductList
+            //          where P.UnitsInStock > 0
+            //          group P by P.Category
+            //         into ProductGroup
+            //          where ProductGroup.Count() > 10
+            //          select new { ProductCategory = ProductGroup.Key, numberOFProducts = ProductGroup.Count() };
+            //foreach (var item in res) { Console.WriteLine(item); }
+
+            //=========================fluent syntax==========================
+
+            //var res = ProductList.Where((P) => P.UnitsInStock > 0).GroupBy((P) => P.Category).Where((P) => P.Count() > 10)
+            //    .Select(ProductGroup => new { ProductCategory = ProductGroup.Key, Productnumber = ProductGroup.Count() });
+            //foreach (var item in res) { Console.WriteLine(item); }
+
+
+            // =======================second over load of GroupBy================================
+
+            //var res = ProductList.GroupBy((P) => P.Category,(P)=>P.ProductName);// select the property want to print
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item.Key+"====================================");
+            //    foreach (var item2 in item) { Console.WriteLine(item2); }
+
+            //}
+
+            #endregion
+            #region [Chunck]
+            // int[] numbers = { 1, 2, 3 ,4,5,6,7,8,8};
+            //var Chuncks = numbers.Chunk(3);
+            //foreach (var ch in Chuncks)
+            //{ foreach (var item in ch) { Console.Write(item);
+            //    }
+
+            //        Console.WriteLine();
+
+            //}
+            #endregion
+
+            #endregion
+            #region [Particioned Operators ]
+            #region [take-- get first 5 elements out of stock]
+            //var res01 = ProductList.Where((P) => P.UnitsInStock == 0).Take(1);
+            //foreach (var item in res01) { Console.WriteLine(item); }
+
+            #endregion
+            #region [takeLast-- get last 5 elements out of stock]
+            //var res = ProductList.Where((P) => P.UnitsInStock == 0).TakeLast(1);
+            //foreach (var item01 in res) { Console.WriteLine(item01); }
+
+
+
+            #endregion
+            #region [skip ]
+            //var res = ProductList.Where((P) => P.UnitsInStock == 0).Skip(1);
+            //foreach (var item in res) { Console.WriteLine(item); }
+
+            #endregion
+            #region [skipLast ]
+            //var res = ProductList.Where((P) => P.UnitsInStock == 0).SkipLast(2);
+            //foreach (var item in res) { Console.WriteLine(item); }
+
+            #endregion
+            #region [Take while]
+            // take number of the array while its number smaller than its zero index
+
+            //int[] numbers = { -1, -2, -3, 1, 3, 30 };
+            //var res = numbers.TakeWhile((num, Index) => num < Index);
+            //foreach (int num in res) { Console.WriteLine(num); }
+
+            #endregion
+            #region [Skip while]
+            //take number of the array while number moduls 2 ==0
+
+
+            //int[] numbers = { 1, 1, 1, 2, 2, 2 };
+            //var res = numbers.SkipWhile(Number=>Number%2!=0);
+            //foreach (int num in res) { Console.WriteLine(num); }
+
+            #endregion
+            #endregion
+            #region [let - into]
+            //string[] names = { "Mustafa", "Rewan", "Hesham" };
+            //var res = from n in names
+            //          select Regex.Replace(n, "[aeiouAEIOU]", "")
+            //          into nonVowelNames
+            //          where nonVowelNames.Length > 3
+            //          select nonVowelNames;
+            //foreach (var name in res) { Console.WriteLine(name); }
+
+
+            //===========================let===========================
+
+            //string[] names = { "Mustafa", "Rewan", "Hesham" };
+            //var res = from n in names
+            //          let nonVowelNames = Regex.Replace(n, "[aeiouAEIOU]", "")
+            //          where nonVowelNames.Length > 3
+            //          select nonVowelNames;
+            //foreach (var name in res) { Console.WriteLine(name); }
             #endregion
         }
     }
